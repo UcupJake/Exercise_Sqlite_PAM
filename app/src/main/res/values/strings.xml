@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Exercise Sqlite</string>
+    <string name="settings">Settings</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="edit_mahasiswa">Edit Mahasiswa</string>
+    <string name="delete_mahasiswa">Delete Mahasiswa</string>
+    <string name="data_mahasiswa">Data Mahasiswa</string>
+    <string name="nama">Nama</string>
+    <string name="no_telepon">No. Telepon</string>
+    <string name="nim">NIM</string>
+    <string name="simpan">Simpan</string>
+    <string name="kontak_dihapus">Yakin ingin menghapus ini?</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="data">Data</string>
+    <string name="mahasiswa_ti">Mahasiswa TI</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Daftar Kontak"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="#aa55ff"/>
+
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintLeft_toLeftOf="parent"-->
+<!--    app:layout_constraintRight_toRightOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/mahasiswa_ti"-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_below="@+id/data"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textSize="35sp"-->
+<!--        android:textColor="#aa55ff" />-->
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/data"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/floating_action_button"
+        android:layout_margin="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_dialog_alert" />
+
+</RelativeLayout>
